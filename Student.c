@@ -7,5 +7,7 @@ typedef struct Student{
 
 int main(){
     Student std1 = malloc(sizeof(Student));
+    std1.name="Eru";
+    std1.id=10;
     
 }
